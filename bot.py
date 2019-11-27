@@ -2,9 +2,6 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import logging
 import settings
 
-
-
-
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
                     level=logging.INFO,
                     filename='bot.log'
